@@ -1,0 +1,19 @@
+.header,
+#add {
+  display: block;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.delete {
+  background-color: red;
+  margin-left: 5%;
+}
+
+.completed {
+  text-decoration: line-through;
+}
