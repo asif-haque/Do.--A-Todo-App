@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import NewItemForm from "./components/NewItemForm";
-import "./App.css";
 import TodoList from "./components/TodoList";
 
 export default function App() {
@@ -17,7 +16,7 @@ export default function App() {
   return (
     <>
       <NewItemForm todoList={todoList} setTodoList={setTodoList} />
-      <h3>Your Todo List</h3>
+      <h1 className="header">Your Todo List</h1>
       {todoList.length === 0 && "No task"}
       <TodoList todoList={todoList} setTodoList={setTodoList} />
     </>
